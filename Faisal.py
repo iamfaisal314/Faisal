@@ -12,7 +12,7 @@ st.set_page_config(page_title="أداة تعديل ملفات الأدوية 314
 SECRET_PASSWORD = "1234"
 
 # استخدام الـ Session State لحفظ قائمة الأدوية أثناء تشغيل الموقع
-if "dividers" Action not in st.session_state:
+if "dividers" not in st.session_state:
     st.session_state.dividers = {
         "Acyclovir": 5, "Amikacin": 5, "Vancomycin": 5, "Piperacillin": 50,
         "Ampicillin": 20, "Gentamicin": 2, "Cefotaxime": 40, "Ceftriaxone": 40,
