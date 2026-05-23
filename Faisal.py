@@ -9,7 +9,7 @@ import tempfile
 st.set_page_config(page_title="أداة تعديل ملفات الأدوية 314", page_icon="💊", layout="centered")
 
 # 🔒 الرقم السري المعتمد لحماية الإعدادات
-SECRET_PASSWORD = "1234"
+SECRET_PASSWORD = "FAISAL314@"
 
 # استخدام الـ Session State لحفظ قائمة الأدوية أثناء تشغيل الموقع
 if "dividers" not in st.session_state:
@@ -113,7 +113,7 @@ def process_pdf(input_bytes):
     return out_bytes
 
 # --- واجهة المستخدم على المتصفح ---
-st.title("💊 أداة تعديل ملفات الأدوية الذكية 314")
+st.title("💊 أداة تعديل ملفات الأدوية  314")
 st.write("قم بمعالجة ملفات الأدوية الـ PDF مباشرة وحساب الجرعات عبر المتصفح.")
 
 # التبويبات لتنظيم الموقع
